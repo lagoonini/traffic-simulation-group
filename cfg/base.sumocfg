@@ -1,0 +1,19 @@
+<configuration>
+  <input>
+    <net-file value="net/marchtrenk_clean2.net.xml"/>
+    <route-files value="demand/trucks.rou.xml"/>
+    <additional-files value="add/types.add.xml,add/stops.add.xml"/>
+  </input>
+  <time>
+    <begin value="0"/>
+    <end value="7200"/>
+  </time>
+  <report>
+    <no-step-log value="true"/>
+  </report>
+  <output>
+    <tripinfo-output value="outputs/tripinfo.xml"/>
+    <emission-output value="outputs/emissions.xml"/>
+    <summary-output value="outputs/summary.xml"/>
+  </output>
+</configuration>

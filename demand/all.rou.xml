@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-10-30 17:58:12 by Eclipse SUMO duarouter Version 1.24.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value=".\net\marchtrenk_allow_all.net.xml"/>
+        <additional-files value=".\add\stops.add.xml,.\add\types.add.xml"/>
+        <route-files value=".\demand\trucks.trips.xml,.\demand\cars.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value=".\demand\all.rou.xml"/>
+    </output>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="car_default" length="4.50" minGap="2.50" maxSpeed="13.89" vClass="passenger" guiShape="passenger" accel="2.6" decel="4.5" sigma="0.5"/>
+    <vehicle id="C2" type="car_default" depart="30.00">
+        <route edges="156803978"/>
+        <stop parkingArea="PA:avanti_gas" duration="120.00"/>
+    </vehicle>
+</routes>

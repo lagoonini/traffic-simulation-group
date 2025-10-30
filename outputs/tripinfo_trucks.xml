@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-10-30 18:34:30 by Eclipse SUMO GUI Version 1.24.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="net\marchtrenk_clean2.net.xml"/>
+        <route-files value="demand\trucks.rou.xml"/>
+        <additional-files value="add\stops.add.xml,add\types.add.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="outputs\summary_trucks.xml"/>
+        <tripinfo-output value="outputs\tripinfo_trucks.xml"/>
+    </output>
+
+</sumoConfiguration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="T1" depart="0.00" departLane="-113607637#0_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="2358.00" arrivalLane="24609247#4_0" arrivalPos="80.01" arrivalSpeed="8.28" duration="2358.00" routeLength="4159.53" waitingTime="133.00" waitingCount="4" stopTime="1800.00" timeLoss="211.13" rerouteNo="0" devices="tripinfo_T1" vType="truck" speedFactor="1.06" vaporized=""/>
+    <tripinfo id="T2" depart="300.00" departLane="-113607637#0_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="2725.00" arrivalLane="24609247#4_0" arrivalPos="80.01" arrivalSpeed="7.36" duration="2425.00" routeLength="4416.74" waitingTime="137.00" waitingCount="4" stopTime="1800.00" timeLoss="222.23" rerouteNo="0" devices="tripinfo_T2" vType="truck" speedFactor="0.94" vaporized=""/>
+    <tripinfo id="T3" depart="600.00" departLane="29366773#1_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="3080.00" arrivalLane="24609247#4_0" arrivalPos="80.01" arrivalSpeed="7.86" duration="2480.00" routeLength="5188.02" waitingTime="82.00" waitingCount="2" stopTime="1800.00" timeLoss="178.86" rerouteNo="0" devices="tripinfo_T3" vType="truck" speedFactor="1.01" vaporized=""/>
+    <tripinfo id="T4" depart="900.00" departLane="1350860319#0_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="3346.00" arrivalLane="24609247#4_0" arrivalPos="80.01" arrivalSpeed="8.72" duration="2446.00" routeLength="5694.36" waitingTime="108.00" waitingCount="5" stopTime="1800.00" timeLoss="205.53" rerouteNo="0" devices="tripinfo_T4" vType="truck" speedFactor="1.08" vaporized=""/>
+</tripinfos>

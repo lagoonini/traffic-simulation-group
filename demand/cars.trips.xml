@@ -1,0 +1,16 @@
+<routes>
+  <trip id="C1" type="car_default" depart="10"
+        from="24609247#4" to="24609247#4">
+    <stop parkingArea="PA:turmoil_gas" duration="120"/>
+  </trip>
+
+  <trip id="C2" type="car_default" depart="30"
+        from="156803978" to="156803978">
+    <stop parkingArea="PA:avanti_gas" duration="120"/>
+  </trip>
+
+  <trip id="C3" type="car_default" depart="50"
+        from="24609247#4" to="24609247#4">
+    <stop parkingArea="PA:postfiliale_4614" duration="180"/>
+  </trip>
+</routes>
